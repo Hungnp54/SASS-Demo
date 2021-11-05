@@ -1,0 +1,12 @@
+//ko co tham so
+/* @mixin styleText{
+    color: white;
+    font-size: 13px;
+} */
+
+//co tham so
+@mixin styleText($color, $fs, $fw){
+    color:$color;
+    font-size:$fs;
+    font-weight: $fw;
+}

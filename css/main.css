@@ -1,3 +1,7 @@
+/* @mixin styleText{
+    color: white;
+    font-size: 13px;
+} */
 * {
   margin: 0;
   padding: 0;
@@ -9,5 +13,47 @@ body {
   line-height: 1.43;
   color: #29303b;
   background-color: #fff;
+}
+
+.myNavBar .myNavBar_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myNavBar .myNavBar_left .navbar-brand {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  margin-right: 0;
+}
+
+.myNavBar .myNavBar_left .navbar-brand img {
+  width: 110px;
+}
+
+.myNavBar .myNavBar_left .myNavBar_categories {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  color: #505763;
+  font-size: 13px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.myNavBar .myNavBar_left .myNavBar_categories i {
+  color: #a1a7b3;
+}
+
+.myNavBar .myNavBar_left .myNavBar_form-search {
+  -webkit-box-flex: 8;
+      -ms-flex-positive: 8;
+          flex-grow: 8;
 }
 /*# sourceMappingURL=main.css.map */
