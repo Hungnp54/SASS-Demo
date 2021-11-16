@@ -1,0 +1,19 @@
+.cover{
+    background-image: url('../../img/cover.jpg');
+    @extend .backgroundImg;
+    height: 500px;
+    position: relative;
+    .cover_content{
+        position: absolute;
+        max-width: 500px;
+        top:50%;
+        left: 12%;
+        transform: translateY(-50%);
+        h1{
+            @include styleText($color-white-0,$fs-2,$fw-2);
+        }
+        p{
+            @include styleText($color-white-0,$fs-3,$fw-0);
+        }
+    }
+}
